@@ -37,7 +37,7 @@ template <typename T>
 bool LinkedList<T>::search(T value) const
 {
 
-	/*
+
 	Node<T>* temp = m_front;
 	bool isFound = false;
 
@@ -56,7 +56,7 @@ bool LinkedList<T>::search(T value) const
 			} while ((temp != nullptr));
 	}
 
-	*/
+	
 	return(isFound);
 }
 
